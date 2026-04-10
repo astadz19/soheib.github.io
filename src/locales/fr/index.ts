@@ -1,0 +1,153 @@
+import { faqsFr } from './faqsFr'
+import { testimonialsFr } from './testimonialsFr'
+import { profileFr } from './profileFr'
+import { whyWordpressFr } from './whyWordpressFr'
+import { aboutFr } from './aboutFr'
+
+/** French translation bundle (projects copy lives in fr-projects.ts + hook) */
+export default {
+  meta: {
+    title: 'Bedjaoui Soheib — Développeur web',
+  },
+  nav: {
+    home: 'Accueil',
+    about: 'À propos',
+    portfolio: 'Portfolio',
+    contact: 'Contact',
+    primaryAria: 'Navigation principale',
+  },
+  header: {
+    getInTouch: 'Me contacter',
+    openMenu: 'Ouvrir le menu',
+    mobileMenu: 'Menu mobile',
+  },
+  footer: {
+    emailMe: 'Email :',
+    callMe: 'Téléphone :',
+    builtWith: 'Portfolio codé à la main avec React, TypeScript & Vite',
+  },
+  language: {
+    label: 'Langue',
+    en: 'EN',
+    fr: 'FR',
+  },
+  social: {
+    rowLabel: 'Réseaux sociaux',
+    instagram: 'Instagram {{handle}}',
+    whatsapp: 'WhatsApp {{phone}}',
+  },
+  home: {
+    chipPortfolio: 'Portfolio',
+    heroTitle: 'Je suis {{name}}, {{title}}',
+    browsePortfolio: 'Voir le portfolio',
+    learnMore: 'En savoir plus',
+    chipAbout: 'À propos',
+    aboutCardTitle: 'À propos',
+    followMe: 'Suivez-moi',
+    workTitle: 'Mon travail',
+    workSub: 'Quelques-uns des derniers projets que j’ai réalisés.',
+    skillsTitle: 'Compétences',
+    skillsSub: 'La stack du quotidien—et ce que j’approfondis en ce moment.',
+    testimonialsTitle: 'Témoignages',
+    testimonialsSub: 'Ce que disent les clients sur mon travail.',
+    snippetsChip: 'Extraits',
+    snippetsTitle: 'Derniers essais CodePen',
+    snippet1: 'Widgets tableau de bord',
+    snippet2: 'Widget calendrier',
+    snippet3: 'Cartes UI dashboard',
+    viewProject: 'Voir le projet',
+    ctaTitle: 'Envie de collaborer ?',
+    ctaSub: 'Parlons-en et construisons quelque chose de solide. Je vous réponds dès que possible.',
+    getInTouch: 'Me contacter',
+  },
+  portfolioPage: {
+    chip: 'Portfolio',
+    title: 'Découvrez les derniers projets',
+    sub: 'Une sélection de sites et d’applis que j’ai livrés—{{name}}, {{title}}, basé en {{location}}.',
+  },
+  portfolioSingle: {
+    notFoundTitle: 'Projet introuvable',
+    notFoundSub: 'Le projet demandé n’existe pas.',
+    backPortfolio: 'Retour au portfolio',
+    visitLive: 'Voir le site en ligne',
+    hireSimilar: 'Me confier un projet similaire',
+    whatIBuilt: 'Ce que j’ai réalisé',
+    technologies: 'Technologies',
+    techFallbackNote: 'Conçu pour rester maintenable.',
+    defaultWhatIBuilt:
+      'Contenu à définir pour ce projet. Contactez-moi pour le détail des livrables.',
+    defaultTags: ['UI responsive', 'Performance', 'Composants clairs', 'Mise en page accessible'],
+    defaultTech: [
+      { name: 'React', note: 'Orienté maintenabilité.' },
+      { name: 'TypeScript', note: 'Orienté maintenabilité.' },
+      { name: 'CSS', note: 'Orienté maintenabilité.' },
+      { name: 'Design system', note: 'Orienté maintenabilité.' },
+    ],
+  },
+  projectCard: {
+    viewProject: 'Voir le projet',
+    openProjectAria: 'Ouvrir le projet : {{title}}',
+  },
+  testimonialCard: {
+    chip: 'Témoignage',
+  },
+  skills: {
+    line1a: 'À l’aise avec',
+    line1b: 'HTML, CSS, JavaScript, PHP, Lua, WordPress, Wix & Webador.',
+    line2a: 'En progression',
+    line2b: 'Laravel & React.',
+    srLearning: '(en progression)',
+    coreStack: 'Stack principale',
+    levelingUp: 'En progression',
+  },
+  whyWordpress: {
+    chip: 'WordPress',
+    rolesLabel: 'Ce que je couvre en général sur ces builds',
+    ...whyWordpressFr,
+  },
+  about: {
+    chip: 'À propos',
+    heroTitle: 'Ravi de vous rencontrer, je suis {{name}}',
+    yearsLabel: 'Années d’expérience',
+    basedIn: 'Basé en {{location}}',
+    getInTouch: 'Me contacter',
+    storyTitle: 'Mon parcours',
+    storySub: 'De la curiosité enfantine au freelance—et un passage en agence à Alger.',
+    expTitle: 'Expérience',
+    expSub: 'Formation, puis freelance—et six mois en agence à Alger Centre.',
+    toolsTitle: 'Outils',
+    toolsSub: 'Éditeurs, design et vidéo—ce qui soutient mon quotidien.',
+    officialSite: 'Site officiel',
+    featuredTitle: 'Projets mis en avant',
+    featuredSub: 'Quelques sites en ligne du portfolio—détails sur chaque fiche projet.',
+    viewProject: 'Voir le projet',
+    browsePortfolio: 'Voir tout le portfolio',
+    storyParagraphs: aboutFr.storyParagraphs,
+    experience: aboutFr.experience,
+    toolDescriptions: aboutFr.tools,
+  },
+  contact: {
+    chip: 'Travaillons ensemble',
+    title: 'Contactez-moi sur WhatsApp',
+    sub:
+      'Le plus rapide est WhatsApp : envoyez votre idée, votre calendrier et des liens, je réponds dès que possible. Je suis basé en {{location}} et ouvert à l’international et au télétravail.',
+    openWhatsApp: 'Ouvrir WhatsApp — {{phone}}',
+    fallback:
+      'Si WhatsApp n’est pas possible, vous pouvez utiliser <emailLink>l’e-mail</emailLink> ou <igLink>Instagram</igLink>.',
+    faqTitle: 'Questions fréquentes',
+    faqSub: 'Quelques réponses rapides avant d’échanger.',
+    cardChip: 'Ligne directe',
+    whyTitle: 'Pourquoi WhatsApp ?',
+    why1: 'Réponses rapides et partage de fichiers (briefs, captures, logos).',
+    why2: 'Le même numéro à enregistrer : {{phone}}',
+    why3: 'Pas de file d’attente formulaire—votre message arrive directement sur mon téléphone.',
+    startChat: 'Démarrer la discussion',
+    whatsappPrefill: 'Bonjour Soheib, je souhaite parler d’un site web / projet. ',
+  },
+  faqAccordion: {
+    ariaRegion: 'Questions fréquentes',
+  },
+  profile: profileFr,
+  faqs: faqsFr,
+  testimonials: testimonialsFr,
+}
